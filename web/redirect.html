@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Kobapp">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+
+    <title>Kobapp - Apps for business</title>
+
+    <meta property="og:title" content="Bring your idea to an App | No code needed">
+    <meta property="og:image" content="assets/images/download_kobapp.png">
+    <meta property="og:site_name" content="Kobapp">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Publish your first App in minutes, no coding skills needed, templates ready to use out of the box.">
+    <meta property="og:url" content="kobapp.tech">
+</head>
+
+<body>
+
+    <div id="redirect-url"></div>
+    
+    <!-- Redirect logic -->
+    <script>
+        const BASE_URL = 'kobapp.tech'
+        const notFoundUrl = document.location.pathname
+        document.querySelector('#redirect-url').innerHTML = `${notFoundUrl}`
+        switch(notFoundUrl) {
+            case '/admin':
+            case '/blog':
+                // Sub-domains
+                const newPath = `http:/${notFoundUrl}.${BASE_URL}`
+                document.location.replace(newPath)
+                break
+            default:
+                let parts = notFoundUrl.split('/')
+                const last = parts.pop()
+                const lastParts = last.split('.')
+                if(lastParts.length < 2) {
+                    // Add .html extension
+                    document.location.replace(`https://${BASE_URL}${parts.join('/')}/${last}.html`)
+                } else {
+                    document.querySelector('#redirect-url').innerHTML = `Not found: ${notFoundUrl}<br/>Go <a href="/">Home</a>`
+                    if(lastParts[1] == 'html') {
+                        // Not found html page, redirect to Home
+                        document.location.replace('/')
+                    }
+                }
+        }
+    </script>
+
+</body>
+
+</html>
