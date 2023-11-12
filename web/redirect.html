@@ -25,14 +25,14 @@
     
     <!-- Redirect logic -->
     <script>
-        const BASE_URL = 'kobapp.tech'
+        const BASE_URL = 'kobapp.com'
         const notFoundUrl = document.location.pathname
         document.querySelector('#redirect-url').innerHTML = `${notFoundUrl}`
         switch(notFoundUrl) {
             case '/admin':
             case '/blog':
                 // Sub-domains
-                const newPath = `http:/${notFoundUrl}.${BASE_URL}`
+                const newPath = `https:/${notFoundUrl}.${BASE_URL}`
                 document.location.replace(newPath)
                 break
             default:
