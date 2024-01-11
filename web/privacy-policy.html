@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mountain Reacher Privacy Policy</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://s3.amazonaws.com/camilo.ortegon/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://s3.amazonaws.com/camilo.ortegon/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Resources -->
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="blog/style.css">
+  </head>
+  <body>
+    <nav>
+      <section>
+        <a id="home-link" href="/">
+          <img src="https://s3.amazonaws.com/camilo.ortegon/images/favicon/apple-icon-180x180.png">
+        </a>
+      </section>
+    </nav>
+    <div id="grad"></div>
+    <input id="article" type="hidden" name="article" value="https://raw.githubusercontent.com/cjortegon/kobapp-website/master/web/md/privacy-policy.md">
+    <input id="profile_img" type="hidden" name="profile_img" value="profile.img">
+    <input id="profile_name" type="hidden" name="profile_name" value="profile.name">
+    <input id="profile_date" type="hidden" name="profile_date" value="profile.date">
+    <div class="section-content">
+      <div id="content"></div>
+    </div>
+    <script src="blog/marked.min.js"></script>
+    <script src="blog/main.js"></script>
+    <script>
+      let article = document.getElementById('article');
+      if(article != null) {
+        loadPost(article.value, () => {
+            // fixAll()
+            fixImages()
+        });
+      }
+    </script>
+  </body>
+</html>
