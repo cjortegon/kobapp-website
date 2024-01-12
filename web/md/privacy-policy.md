@@ -2,7 +2,7 @@
 
 Effective date: Jan 5, 2024
 
-Mountain Reacher (“us”, “we”, or “our”), as division of Kobapp group, operates the website and mobile applications (the “Service”).
+Mountain Reacher (“us”, “we”, or “our”), a subsidiary of the Kobapp Group, operates the website and mobile applications, collectively known as the (the “Service”).
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.
 
@@ -21,6 +21,10 @@ We use your data to provide and improve the Service. By using the Service, you a
 ## Information Collection and Use
 
 We collect several different types of information for various purposes to provide and improve our Service to you.
+
+### Consent for Collection and Use of Information
+
+Users will be provided with clear options to consent to different types of data processing.
 
 ### Types of Data Collected
 
@@ -73,13 +77,18 @@ Mountain Reacher uses the collected data for various purposes:
 
 ## Legal Basis for Processing Personal Data Under General Data Protection Regulation (GDPR)
 
-If you are from the European Economic Area (EEA), Mountain Reacher legal basis for collecting and using the personal information described in this Privacy Policy depends on the Personal Data we collect and the specific context in which we collect it.
+If you are located within the European Economic Area (EEA), our legal basis for collecting and using the personal information described in this Privacy Policy is contingent upon the type of Personal Data we collect and the specific context in which we collect it. We process your data on the following legal grounds:
 
-We need to perform a contract with you
-* You have given us permission to do so
-* The processing is in our legitimate interests and it’s not overridden by your rights
-* For payment processing purposes
-* To comply with the law
+* **Performance of a Contract:** We require your data to fulfill our contractual obligations with you.
+
+* **Consent:** We rely on your explicit consent as a legal basis for processing personal data. This consent is sought for specific purposes and you have the right to withdraw it at any time.
+
+* **Legitimate Interests:** The processing of your data is necessary for our legitimate interests, such as improving our services, unless these interests are overridden by your rights and interests.
+
+* **Payment Processing:** Your information is used for processing transactions and payments.
+Legal Compliance: We process your data as required to comply with legal obligations.
+
+Your consent plays a critical role in how we process your personal data. By providing your consent, you agree to the collection and use of your information in accordance with this policy. We ensure that your data is processed transparently and with respect for your privacy rights.
 
 ## Retention of Data
 
@@ -91,7 +100,7 @@ Mountain Reacher will also retain Usage Data for internal analysis purposes. Usa
 
 Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.
 
-If you are located outside United Kingdom and choose to provide information to us, please note that we transfer the data, including Personal Data, to United Kingdom and process it there.
+If you are located outside United States and choose to provide information to us, please note that we transfer the data, including Personal Data, to United States and process it there.
 
 Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
 
@@ -142,13 +151,15 @@ You have the right to complain to a Data Protection Authority about our collecti
 
 We may employ third party companies and individuals to facilitate our Service (“Service Providers”), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.
 
-These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.
+These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose. Users will be informed and consent will be obtained if any service provider requires access to data that wasn't previously disclosed.
 
 ### Analytics
 
 We may use third-party Service Providers to monitor and analyze the use of our Service.
 
-* __Google Analytics:__ is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: http://www.google.com/intl/en/policies/privacy/
+* __Google Analytics:__ is a web analytics service offered by Google that tracks and reports website traffic. Google uses the data collected to track and monitor the use of our Service. This data is shared with other Google services. Google may use the collected data to contextualize and personalize the ads of its own advertising network. For more information on the privacy practices of Google, please visit the Google Privacy & Terms web page: https://policies.google.com/privacy?hl=en
+
+Your personal information will always remain separate and will not be associated with the behavioral data processed through our Analytics. This ensures that your identity and personal details are not linked to analytics tracking.
 
 ### Advertising
 
